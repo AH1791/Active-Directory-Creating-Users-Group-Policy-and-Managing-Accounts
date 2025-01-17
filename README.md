@@ -178,7 +178,9 @@ To disable users, go to the DC and in Active Directory Users and Computers > myd
 <br />
 <br />
 If we sign out of client-1 now, and try to sign back in using the disabled account, this message will appear:  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/80efbb5b-e691-436e-85e7-824a8ff06268)
+
 <br />
 <br />
 To enable the user again go back to the DC and right-click again on the user and select Enable:  <br/>
