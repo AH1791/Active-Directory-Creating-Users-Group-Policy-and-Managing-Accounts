@@ -118,11 +118,15 @@ Expand Domains > mydomain.com > Right click Default Domain Policy and Edit:  <br
 <br />
 <br />
 Under Computer Configuration expand Policies > Window Settings > Security Settings > select Account Lockout Policy:  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/786c128d-7af8-4749-8d63-e45188bf88fe)
+
 <br />
 <br />
 Here we'll select "Account lockout threshhold" and choose to make the account lockout after 5 invalid attempts. Make sure to hit Apply:  <br/>
-<img
+
+![image](https://github.com/user-attachments/assets/c000af9a-8539-4c83-bb56-b48e8e0cfb08)
+
 <br />
 <br />
 You can double-check this by going to the group policy settings and scrolling down to view the lockout policy:  <br/>
