@@ -130,11 +130,15 @@ Here we'll select "Account lockout threshhold" and choose to make the account lo
 <br />
 <br />
 You can double-check this by going to the group policy settings and scrolling down to view the lockout policy:  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/d7b5e845-6fa4-426b-b81c-daf58976b18e)
+
 <br />
 <br />
 The policy will update automatically, but it will take some time. We can force the update on client-1 by signing into it as our admin and running "gpupdate /force" in the command line:  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/7f5e0f1f-811c-41c2-91d1-49c4a0d4b973)
+
 <br />
 <br />
 <img
