@@ -184,15 +184,21 @@ If we sign out of client-1 now, and try to sign back in using the disabled accou
 <br />
 <br />
 To enable the user again go back to the DC and right-click again on the user and select Enable:  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/d680643d-137d-41d9-8a6f-bfbd61b3d8d0)
+
 <br />
 <br />
 The user can now log into client-1, so we'll do that and once we are logged in we'll view some logs through the event viewer. To do so, search for "Event Viewer" in the start search bar > Windows Logs > Security. You'll notice we cannot view these:  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/9f1628ad-b292-472b-89ab-9ddd591c5cec)
+
 <br />
 <br />
 This is because we are not an admin. Not to worry, we don't need to sign out of this whole client and sign in as Jane (our admin). We already know her credentials. We just need to close out of this window and open it again, but this time, as an administrator. It will have a pop-up asking for admin credentials:  <br/>
-<img 
+
+![4 172 248 48 - Remote Desktop Connection 1_16_2025 7_06_44 PM](https://github.com/user-attachments/assets/6fd86c1d-4822-4475-9665-4b5f1f844929)
+
 <br />
 <br />
 Now, if we navigate back to the security log page, we can view them:  <br/>
