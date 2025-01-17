@@ -202,11 +202,15 @@ This is because we are not an admin. Not to worry, we don't need to sign out of 
 <br />
 <br />
 Now, if we navigate back to the security log page, we can view them:  <br/>
-<img 
+
+ ![image](https://github.com/user-attachments/assets/ddbd5502-e7d0-4b90-a007-2fbfb8e5c5a7)
+
 <br />
 <br />
 Here we can see a bunch of different information like successful and failed log on attempts, who attempted them and from what IP address, along with the date and time they happened:  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/fd910074-29f1-4f11-8e65-fd689baf3ec1)
+
 <br />
 <br />
 <h2>Active Directory: Creating Users, Group Policy, and Managing Accounts in Azure is Now Complete </h2>
