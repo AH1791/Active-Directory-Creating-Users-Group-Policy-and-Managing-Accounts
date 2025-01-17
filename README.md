@@ -145,10 +145,12 @@ The policy will update automatically, but it will take some time. We can force t
 <br />
 <br />
 Now, we can sign out of client-1 and attempt to sign back into it with our user with an invalid password 5 times. A lockout message will appear:  <br/>
-<img
-<br />
-<br />
-<img
+
+![image](https://github.com/user-attachments/assets/03b41c56-631c-4c25-93da-8a6ea391eab4)
+
+
+![image](https://github.com/user-attachments/assets/83e73d7f-2a59-42ea-b07b-59136d61faf4)
+
 <br />
 <br />
 To unlock the users account, head back to the DC > Active Directory Users and Computers > mydomain.com > _EMPLOYEES > double-click on the locked out user > Account tab > check the "Unlock account" box:  <br/>
