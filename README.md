@@ -50,7 +50,9 @@ Here, enter "Domain Users" > Check Names > OK > OK. Now all domain users can acc
 <br />
 <br />
 Next, we'll create a bunch of users in Powershell. To start, log into the DC (Domain Controller) as our admin (jane_admin): <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/e7d74ec8-8d5d-43bb-90a1-e5198a77ba4d)
+
 <br />
 <br />
 Once logged in, open Powershell ISE as an admin and start a new script:  <br/>
