@@ -68,7 +68,9 @@ Use Ctrl + S and save this like so:  <br/>
 <br />
 <br />
 Now, we can copy and paste the user creation script in the top section and click the "Run" button which has a green play symbol located in the top bar:  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/e140301f-4bd0-4ccb-a1f9-749ba10d9267)
+
 <br />
 <br />
 Powershell will begin to run the script and create random users and place them in the OU (Organizational Unit), we created in the previous section of this project, named "_EMPLOYEES". We can check by searching "Active Directory Users and Computers" > mydomain.com > _EMPLOYEES. Here we will pick a user and log into client-1 using this username and the password the script sets for all of these users which is "Password1":  <br/>
