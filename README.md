@@ -98,11 +98,17 @@ When we're logged in we can see a user folder for our user if we click on file e
 <br />
 <br />
 Now, let's log out of this user, because we are going to set an account lockout group policy and attempt to lock this user out:  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/1b47fa15-3c0b-45a4-b875-7b3d76c5acbc)
+
 <br />
 <br />
 Go back to our DC and right click the start button > Run > type "gpmc.msc" to bring up the Group Policy Managment Console:  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/9787508f-8d8e-423e-87d5-82773b9a02e6)
+
+![image](https://github.com/user-attachments/assets/787b5909-1465-4ec3-a50f-ecbfea3f00fc)
+
 <br />
 <br />
 Expand Domains > mydomain.com > select Default Domain Policy:  <br/>
