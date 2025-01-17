@@ -56,11 +56,15 @@ Next, we'll create a bunch of users in Powershell. To start, log into the DC (Do
 <br />
 <br />
 Once logged in, open Powershell ISE as an admin and start a new script:  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/7b0ceded-c45b-48b0-adac-8a201d01639a)
+
 <br />
 <br />
 Use Ctrl + S and save this like so:  <br/>
-<img>
+
+![image](https://github.com/user-attachments/assets/04786774-93f2-40bc-874f-2d9b659f2e45)
+
 <br />
 <br />
 Now, we can copy and paste the user creation script in the top section and click the "Run" button which has a green play symbol located in the top bar:  <br/>
