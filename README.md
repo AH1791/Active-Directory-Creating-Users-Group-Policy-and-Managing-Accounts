@@ -74,19 +74,27 @@ Now, we can copy and paste the user creation script in the top section and click
 <br />
 <br />
 Powershell will begin to run the script and create random users and place them in the OU (Organizational Unit), we created in the previous section of this project, named "_EMPLOYEES". We can check by searching "Active Directory Users and Computers" > mydomain.com > _EMPLOYEES. Here we will pick a user and log into client-1 using this username and the password the script sets for all of these users which is "Password1":  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/6af94378-a2f6-4dba-b406-f744f16a03c8)
+
 <br />
 <br />
 Now, log out of Jane's account on client-1:  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/a329140b-4730-4238-900d-2410b64a4a1b)
+
 <br />
 <br />
 We can log back into client-1 using our newly created user, making sure to specify the context of which we want to log in by adding "mydomain.com\" before the username:  <br/>
-<img 
+
+ ![image](https://github.com/user-attachments/assets/3f035e97-88b3-486b-b095-263f11044d1c)
+
 <br />
 <br />
 When we're logged in we can see a user folder for our user if we click on file explorer > C: > Users. We can also see the folder for the other users that have signed into this client. However, we cannot access them, because we don't have those permissions as a user:  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/ebe3156c-5dad-4cc1-a91c-d2c3484ffc85)
+
 <br />
 <br />
 Now, let's log out of this user, because we are going to set an account lockout group policy and attempt to lock this user out:  <br/>
