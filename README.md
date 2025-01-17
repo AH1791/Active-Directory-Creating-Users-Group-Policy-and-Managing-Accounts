@@ -154,19 +154,27 @@ Now, we can sign out of client-1 and attempt to sign back into it with our user 
 <br />
 <br />
 To unlock the users account, head back to the DC > Active Directory Users and Computers > mydomain.com > _EMPLOYEES > double-click on the locked out user > Account tab > check the "Unlock account" box:  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/ac41ef0b-690e-4520-b168-38b64878aefc)
+
 <br />
 <br />
 (Alternatively you could right-click on the user > Reset Password and there will be a "Unlock users account" option. That way you can change the password at the same time you unlock it):  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/6134c752-4470-4f0e-94d8-62ce5523ad8f)
+
 <br />
 <br />
 Now our user can sign into clinet-1 as normal:  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/d22ea537-7bea-405d-a5b2-a5a12e082dc2)
+
 <br />
 <br />
 To disable users, go to the DC and in Active Directory Users and Computers > mydomain.com > _EMPLOYEES > right-click on user you want to disable > Disable:  <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/44c5a3b0-833e-45b2-b618-791e815373dd)
+
 <br />
 <br />
 If we sign out of client-1 now, and try to sign back in using the disabled account, this message will appear:  <br/>
