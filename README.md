@@ -38,11 +38,15 @@ To start, log into client-1 as the domain admin (jane_admin), using Remote Deskt
 <br />
 <br />
 I want to allow Remote Desktop for non-administrative users. So, right-click on the start button > System > on the right-side click "Remote Desktop" > "Select users that can remotely access this PC": <br/>
-<img 
+
+![image](https://github.com/user-attachments/assets/ca4a02f5-d785-427a-948e-260eb594b49b)
+
 <br />
 <br />
 Here, enter "Domain Users" > Check Names > OK > OK. Now all domain users can access this client via Remote Desktop:  <br/>
-<img 
+
+ ![image](https://github.com/user-attachments/assets/b648d93c-4cbe-450b-8db6-17c7c19c488e)
+
 <br />
 <br />
 Next, we'll create a bunch of users in Powershell. To start, log into the DC (Domain Controller) as our admin (jane_admin): <br/>
