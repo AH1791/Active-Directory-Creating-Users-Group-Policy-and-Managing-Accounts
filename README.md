@@ -111,8 +111,10 @@ Go back to our DC and right click the start button > Run > type "gpmc.msc" to br
 
 <br />
 <br />
-Expand Domains > mydomain.com > select Default Domain Policy:  <br/>
-<img 
+Expand Domains > mydomain.com > Right click Default Domain Policy and Edit:  <br/>
+
+![image](https://github.com/user-attachments/assets/be36c444-1a47-4507-8fb1-6fded0b99db3)
+
 <br />
 <br />
 Under Computer Configuration expand Policies > Window Settings > Security Settings > select Account Lockout Policy:  <br/>
